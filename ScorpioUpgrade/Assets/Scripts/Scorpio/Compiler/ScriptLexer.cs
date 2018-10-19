@@ -906,9 +906,9 @@
                         eval = Scorpio.Compiler.TokenType.None;
                         break;
 
-                    case "name":
-                        eval = Scorpio.Compiler.TokenType.Name;
-                        break;
+                    //case "name":
+                    //    eval = Scorpio.Compiler.TokenType.Name;
+                    //    break;
 
                     default:
                         eval = Scorpio.Compiler.TokenType.Identifier;
@@ -924,8 +924,8 @@
                         break;
 
                         // TODO 修复为提示，对用户录入的值进行覆盖处理
-                    case TokenType.Name:
-                        throw new ScriptException("Can't define [name] field,[name] is scorpio fixed field(readonly)");
+                    //case TokenType.Name:
+                    //    throw new ScriptException("Can't define [name] field,[name] is scorpio fixed field(readonly)");
 
                     default:
                         if (eval != Scorpio.Compiler.TokenType.None)

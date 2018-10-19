@@ -14,6 +14,7 @@
         public ScriptTable(Script script) : base(script)
         {
             this.m_listObject = new Dictionary<object, ScriptObject>();
+            this.m_listObject.Add("name",new ScriptString(script,"my name is xxx?"));
         }
 
         public override ScriptObject AssignCompute(Scorpio.Compiler.TokenType type, ScriptObject value)
