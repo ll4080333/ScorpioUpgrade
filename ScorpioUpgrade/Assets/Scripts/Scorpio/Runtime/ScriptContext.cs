@@ -408,6 +408,10 @@
         {
             ScriptContext context = new ScriptContext(this.m_script, null, this, Executable_Block.None);
             ScriptTable table2 = this.m_script.CreateTable();
+
+            //todo
+            //table2.Name = table.StackInfo.Breviary.Substring(table.StackInfo.Breviary.LastIndexOf('/')+1);
+            //UnityEngine.Debug.Log(table2.Name);
             foreach (ScriptScriptFunction function in table.Functions)
             {
                 table2.SetValue(function.Name, function);

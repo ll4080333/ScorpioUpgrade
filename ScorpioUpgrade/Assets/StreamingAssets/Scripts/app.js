@@ -1,8 +1,8 @@
 // ------------------------------------------------------------------------------------
 // Unity引擎导入的类
-Object = import_type("UnityEngine.Object")
-GameObject = import_type("UnityEngine.GameObject")
-Transform = import_type("UnityEngine.Transform")
+// Object = import_type("UnityEngine.Object")
+// GameObject = import_type("UnityEngine.GameObject")
+// Transform = import_type("UnityEngine.Transform")
 // RectTransform = import_type("UnityEngine.RectTransform")
 // AudioSource = import_type("UnityEngine.AudioSource")
 // Rigidbody = import_type("UnityEngine.Rigidbody")

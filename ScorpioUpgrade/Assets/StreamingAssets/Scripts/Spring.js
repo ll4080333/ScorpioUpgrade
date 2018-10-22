@@ -2,21 +2,27 @@
 
 Spring = 
 {
-    table : null;
-    prototype : "config.js";
+    // table : null;
+    // // prototype : "config.js";
+    // prototype = 
+    // {
+    //     author : "dongwei"
+    // }
 }
 
-Spring.Name = "Springdong";
+// Spring.Name = "Springdong";
 
-Spring.Init = function()
-{
+// Spring.
 
-}
+// Spring.Init = function()
+// {
 
-Spring.Release = function()
-{
+// }
 
-}
+// Spring.Release = function()
+// {
+
+// }
 
 // Spring.Find("Child");
 
@@ -25,5 +31,7 @@ Spring.Release = function()
 //     print("number + " + i);
 // }
 
-print("Spring load successfully.");
+// print("Spring load successfully.");
 print(Spring.name);
+// print(Spring.prototype.author);
+// print(Spring.Init.Name);
